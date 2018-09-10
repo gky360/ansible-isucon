@@ -6,7 +6,7 @@
   with_items:
     - make
 
-- shell: "/home/isucon/xbuild/go-install -f 1.9 /home/isucon/local/go"
+- shell: "/home/isucon/xbuild/go-install -f 1.11 /home/isucon/local/go"
   args:
     creates: /home/isucon/local/go
   become_user: isucon
